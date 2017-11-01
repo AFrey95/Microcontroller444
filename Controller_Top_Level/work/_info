@@ -1,0 +1,217 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\weberjog\Desktop
+vaddr_decode
+Z1 !s100 0e_ZAkG4bKLQM5;i<><A73
+Z2 IFNmCAM;OL<Db9f^b_Az_I0
+Z3 V?6oKYmBK=iE:P_>P7Jh2C2
+Z4 dC:\altera\12.0\quartus\qdesigns\Lecture_Examples\Lecture_11\Controller_Top_Level
+Z5 w1349728218
+Z6 8C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Address_Decoder/addr_decode.v
+Z7 FC:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Address_Decoder/addr_decode.v
+L0 4
+Z8 OV;L;10.0d;49
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|-nocovercells|C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Address_Decoder/addr_decode.v|
+Z10 !s102 -nocovercells
+Z11 o-work work -nocovercells -O0
+Z12 !s108 1350482773.816000
+Z13 !s107 C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Address_Decoder/addr_decode.v|
+!s85 0
+!s101 -O0
+valtsyncram
+Z14 !s100 c2kC3k7TZSAiHElT:m_5i3
+Z15 Ii6nCP:6S5h:ba;jnmc5nB3
+Z16 V8Hak2hTg^P[im2_;b[MOV0
+R4
+Z17 w1338527648
+Z18 8C:/altera/12.0/quartus/eda/fv_lib/verilog/altsyncram.v
+Z19 FC:/altera/12.0/quartus/eda/fv_lib/verilog/altsyncram.v
+L0 14
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|-nocovercells|C:/altera/12.0/quartus/eda/fv_lib/verilog/altsyncram.v|
+R10
+R11
+Z21 !s108 1350482774.908000
+Z22 !s107 C:/altera/12.0/quartus/eda/fv_lib/verilog/altsyncram.v|
+!s85 0
+!s101 -O0
+vALU
+Z23 !s100 UEbS<[l`h=>zHG>U:zO>W2
+Z24 IY=N]_V^ahn@NP`f3:E9ZM0
+Z25 VGL]nk<T1h@EfQd<P_n0VR3
+R4
+Z26 w1348836781
+Z27 8C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/ALU.v
+Z28 FC:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/ALU.v
+L0 6
+R8
+r1
+31
+Z29 !s90 -reportprogress|300|-work|work|-nocovercells|C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/ALU.v|
+R10
+R11
+Z30 n@a@l@u
+Z31 !s108 1350482773.941000
+Z32 !s107 C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/ALU.v|
+!s85 0
+!s101 -O0
+vcontrol
+Z33 !s100 Zl_36;YE3=hRK1IZJCJU:1
+Z34 I^@:jB2ReGVEF<TIKKF8V91
+Z35 Vo?<lRo@nl:f>LX2bI@a8K2
+R4
+Z36 w1350441324
+Z37 8C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Control_Unit/control.v
+Z38 FC:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Control_Unit/control.v
+L0 4
+R8
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|-nocovercells|C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Control_Unit/control.v|
+R10
+R11
+Z40 !s108 1350482774.518000
+Z41 !s107 C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Control_Unit/control.v|
+!s85 0
+!s101 -O0
+vcontroller
+Z42 I:;PoPiBK=:F5SNOf0OkF]1
+Z43 VK0@_3L?Dg3=ZYa9NgDmfn3
+Z44 dG:\class\ECE444_FA13\Lecture_Examples\Lecture_11\Controller_Top_Level
+Z45 w1350485899
+Z46 8G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v
+Z47 FG:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v
+L0 5
+Z48 OV;L;10.1d;51
+r1
+31
+Z49 o-work work -O0
+Z50 !s100 4G0;Gk1<X7A]feQ=7k<df3
+Z51 !s108 1380724662.984000
+Z52 !s107 G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v|
+Z53 !s90 -reportprogress|300|-work|work|G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vgen_reg
+Z54 !s100 D8>oSU7BUTE4SH^Ho00lH1
+Z55 Ii2XbGD@jH<0Uz_igUK84b2
+Z56 VTWFD]F;f76bIm;QYaN[4S1
+R4
+Z57 w1349728698
+Z58 8C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/General_Register/gen_reg.v
+Z59 FC:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/General_Register/gen_reg.v
+L0 4
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|-nocovercells|C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/General_Register/gen_reg.v|
+R10
+R11
+Z61 !s108 1350482774.082000
+Z62 !s107 C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/General_Register/gen_reg.v|
+!s85 0
+!s101 -O0
+vMain_Mem
+Z63 IQzCK<[0:HE?10=TlFPYD53
+Z64 VZKMzn<R`?_h::`1PDhcLb3
+R44
+Z65 w1350421443
+Z66 8G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v
+Z67 FG:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v
+L0 39
+R48
+r1
+31
+R49
+Z68 n@main_@mem
+!i10b 1
+Z69 !s100 hO>Q2eH3fg19Wn7FBO[B=1
+!s85 0
+Z70 !s108 1380724663.494000
+Z71 !s107 G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v|
+Z72 !s90 -reportprogress|300|-work|work|G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v|
+!s101 -O0
+vmux_4
+Z73 !s100 mKl5O?hoH1^QYAMe60]NG3
+Z74 I:E58`c]cN7^WV2decj=h[0
+Z75 VU8SRQOgJ<iHWZcj;ZTMo]2
+R4
+Z76 w1349788745
+Z77 8C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/MUX_4_input/mux_4.v
+Z78 FC:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/MUX_4_input/mux_4.v
+L0 4
+R8
+r1
+31
+Z79 !s90 -reportprogress|300|-work|work|-nocovercells|C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/MUX_4_input/mux_4.v|
+R10
+R11
+Z80 !s108 1350482774.378000
+Z81 !s107 C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/MUX_4_input/mux_4.v|
+!s85 0
+!s101 -O0
+vpc_reg
+Z82 !s100 =FRI4XX;KaFJYJ79d1X=N1
+Z83 Ia5V@H7okG^I4;B0XVQMLo1
+Z84 VH5XaREOO:OTKnYg7J@i][0
+R4
+Z85 w1349727853
+Z86 8C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Program_Counter/pc_reg.v
+Z87 FC:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Program_Counter/pc_reg.v
+L0 4
+R8
+r1
+31
+Z88 !s90 -reportprogress|300|-work|work|-nocovercells|C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Program_Counter/pc_reg.v|
+R10
+R11
+Z89 !s108 1350482774.674000
+Z90 !s107 C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Program_Counter/pc_reg.v|
+!s85 0
+!s101 -O0
+vREG_FILE
+Z91 !s100 WT=Ia0a^1RfnaTShSH4LT3
+Z92 I2EX7n5QT7zRlK^c]<@0020
+Z93 VdZ@XXBhUYljTf5J[W[F7Z0
+R4
+Z94 w1348837063
+Z95 8C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v
+Z96 FC:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v
+L0 1
+R8
+r1
+31
+Z97 !s90 -reportprogress|300|-work|work|-nocovercells|C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v|
+R10
+R11
+Z98 n@r@e@g_@f@i@l@e
+Z99 !s108 1350482774.238000
+Z100 !s107 C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v|
+!s85 0
+!s101 -O0
+vtest_controller
+!i10b 1
+!s100 3_MG6T>=DAEkTZUeb1Xo;3
+IUCSiLVY>M5ShooG4CWZ>d3
+Z101 VB2MNUE=Ke1Q@Q7bNLUcE60
+R44
+w1380723654
+8G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v
+FG:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v
+L0 5
+R48
+r1
+!s85 0
+31
+!s108 1380724663.763000
+!s107 G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v|
+!s90 -reportprogress|300|-work|work|G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v|
+!s101 -O0
+R49

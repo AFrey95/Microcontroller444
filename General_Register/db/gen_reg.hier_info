@@ -1,0 +1,35 @@
+|gen_reg
+X[0] => Y[0]~reg0.DATAIN
+X[1] => Y[1]~reg0.DATAIN
+X[2] => Y[2]~reg0.DATAIN
+X[3] => Y[3]~reg0.DATAIN
+X[4] => Y[4]~reg0.DATAIN
+X[5] => Y[5]~reg0.DATAIN
+X[6] => Y[6]~reg0.DATAIN
+X[7] => Y[7]~reg0.DATAIN
+ld => Y[0]~reg0.ENA
+ld => Y[1]~reg0.ENA
+ld => Y[2]~reg0.ENA
+ld => Y[3]~reg0.ENA
+ld => Y[4]~reg0.ENA
+ld => Y[5]~reg0.ENA
+ld => Y[6]~reg0.ENA
+ld => Y[7]~reg0.ENA
+clk => Y[0]~reg0.CLK
+clk => Y[1]~reg0.CLK
+clk => Y[2]~reg0.CLK
+clk => Y[3]~reg0.CLK
+clk => Y[4]~reg0.CLK
+clk => Y[5]~reg0.CLK
+clk => Y[6]~reg0.CLK
+clk => Y[7]~reg0.CLK
+Y[0] <= Y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Y[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Y[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Y[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] <= Y[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

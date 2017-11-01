@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\12.0\quartus\qdesigns\Lecture_Examples\Lecture_11\ALU
+vREG_FILE
+Z1 !s100 WXQIGFGPd[7la>SIMLl590
+Z2 InF^:]gHJzccf>Y]Vf```=2
+Z3 VdZ@XXBhUYljTf5J[W[F7Z0
+Z4 dG:\class\ECE444_FA13\Lecture_Examples\Lecture_11\Register_File
+Z5 w1348837063
+Z6 8G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v
+Z7 FG:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v|
+Z10 o-work work -O0
+Z11 n@r@e@g_@f@i@l@e
+!i10b 1
+!s85 0
+Z12 !s108 1379949506.180000
+Z13 !s107 G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v|
+!s101 -O0
+vtest_file
+!i10b 1
+Z14 !s100 [nYF8mQ3PMoK09mBbZXHC2
+Z15 Ic`2WFKMPi_MdGDBUPmCPe0
+Z16 VG5ZoQUC3<d;;4::haZO8<2
+R4
+Z17 w1379949317
+Z18 8G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File/test_file.v
+Z19 FG:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File/test_file.v
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1379949506.726000
+!s107 G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File/test_file.v|
+Z20 !s90 -reportprogress|300|-work|work|G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File/test_file.v|
+!s101 -O0
+R10

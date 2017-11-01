@@ -1,0 +1,15 @@
+C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/test_alu.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/test_alu.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module test_alu
+
+Top level modules:
+	test_alu
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/ALU.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/ALU.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

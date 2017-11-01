@@ -1,0 +1,120 @@
+# do controller.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module controller_vlg_sample_tst
+# -- Compiling module controller_vlg_check_tst
+# -- Compiling module controller_vlg_vec_tst
+# 
+# Top level modules:
+# 	controller_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.controller_vlg_vec_tst 
+# Loading work.controller_vlg_vec_tst
+# Loading work.controller
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_ram_block
+# Loading cycloneii_ver.cycloneii_ram_register
+# Loading cycloneii_ver.cycloneii_ram_pulse_generator
+# Loading work.controller_vlg_sample_tst
+# Loading work.controller_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ERROR! Vector Mismatch for output port IR_out[2] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 10010100
+# ERROR! Vector Mismatch for output port IR_out[4] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 10010100
+# ERROR! Vector Mismatch for output port IR_out[7] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 10010100
+# ERROR! Vector Mismatch for output port MD_out[3] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11111000
+# ERROR! Vector Mismatch for output port MD_out[4] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11111000
+# ERROR! Vector Mismatch for output port MD_out[5] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11111000
+# ERROR! Vector Mismatch for output port MD_out[6] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11111000
+# ERROR! Vector Mismatch for output port MD_out[7] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11111000
+# ERROR! Vector Mismatch for output port MEM_out[1] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 10101010
+# ERROR! Vector Mismatch for output port MEM_out[3] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 10101010
+# ERROR! Vector Mismatch for output port MEM_out[5] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 10101010
+# ERROR! Vector Mismatch for output port MEM_out[7] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 10101010
+# ERROR! Vector Mismatch for output port PC_out[2] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000100
+# ERROR! Vector Mismatch for output port state[3] :: @time = 1000000.000 ps
+#      Expected value = 000000
+#      Real value = 011000
+# ERROR! Vector Mismatch for output port state[4] :: @time = 1000000.000 ps
+#      Expected value = 000000
+#      Real value = 011000
+# ERROR! Vector Mismatch for output port PC_out[0] :: @time = 1020000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000101
+# ERROR! Vector Mismatch for output port state[0] :: @time = 1020000.000 ps
+#      Expected value = 000000
+#      Real value = 000001
+# ERROR! Vector Mismatch for output port MEM_out[4] :: @time = 1040000.000 ps
+#      Expected value = 00000000
+#      Real value = 11111000
+# ERROR! Vector Mismatch for output port MEM_out[6] :: @time = 1040000.000 ps
+#      Expected value = 00000000
+#      Real value = 11111000
+# ERROR! Vector Mismatch for output port state[1] :: @time = 1040000.000 ps
+#      Expected value = 000000
+#      Real value = 000010
+# ERROR! Vector Mismatch for output port IR_out[5] :: @time = 1080000.000 ps
+#      Expected value = 00000000
+#      Real value = 10100000
+# ERROR! Vector Mismatch for output port PC_out[1] :: @time = 1080000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000110
+# ERROR! Vector Mismatch for output port state[2] :: @time = 1080000.000 ps
+#      Expected value = 000000
+#      Real value = 000100
+# ERROR! Vector Mismatch for output port MEM_out[0] :: @time = 1120000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000001
+# ERROR! Vector Mismatch for output port MD_out[0] :: @time = 1140000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000001
+# ERROR! Vector Mismatch for output port IR_out[0] :: @time = 1220000.000 ps
+#      Expected value = 00000000
+#      Real value = 10000001
+# ERROR! Vector Mismatch for output port state[5] :: @time = 1320000.000 ps
+#      Expected value = 000000
+#      Real value = 100000
+# ERROR! Vector Mismatch for output port MEM_out[2] :: @time = 1400000.000 ps
+#      Expected value = 00000000
+#      Real value = 10010100
+#          28 mismatched vectors : Simulation failed !
+# ** Note: $finish    : controller.vt(1077)
+#    Time: 10 us  Iteration: 0  Instance: /controller_vlg_vec_tst/tb_out

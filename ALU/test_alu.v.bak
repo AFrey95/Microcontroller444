@@ -1,0 +1,32 @@
+//test_alu.v
+/*Test module for the RISC_SPM based ALU.  This module
+* exercises each of the ALU functions through a representative
+* range of inputs.
+*/
+`timescale 1ns/1ns
+
+module test_alu();
+  reg [7:0] A, B;
+  reg [2:0] CNTL;
+  wire [7:0] Y;
+  wire zero, ovr, neg;
+  
+  ALU MUT(A, B, CNTL, Y, zero, ovr, neg);
+  
+  initial 
+    begin
+      A = 8'h00;
+      B = 8'h00;
+      CNTL = 3'b000;
+      repeat (20480) #30  A = A + 8'h4;       
+  end
+  initial repeat (320)  # 1900 B = B + 8'h4;
+  initial repeat (5) #121600 CNTL = CNTL + 3'h1;
+  initial #608000 $stop;
+  initial $display(A, B, CNTL, Y, zero, ovr, neg);
+endmodule
+       
+      
+      
+  
+  

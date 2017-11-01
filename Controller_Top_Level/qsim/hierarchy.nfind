@@ -1,0 +1,13 @@
+controller
+gen_reg:IR|
+addr_decode:MA_addr|
+gen_reg:MD|
+pc_reg:PC|
+REG_FILE:REG_file|
+gen_reg:STATUS_reg|
+ALU:alu_unit|
+control:control_unit|
+mux_4:file_mux|
+Main_Mem:Memory|altsyncram:altsyncram_component|altsyncram_smq1:auto_generated|
+Main_Mem:Memory|
+Main_Mem:Memory|altsyncram:altsyncram_component|

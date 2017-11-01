@@ -1,0 +1,157 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do controller_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Address_Decoder {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Address_Decoder/addr_decode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module addr_decode
+# 
+# Top level modules:
+# 	addr_decode
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Control_Unit {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Control_Unit/control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/General_Register {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/General_Register/gen_reg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module gen_reg
+# 
+# Top level modules:
+# 	gen_reg
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/MUX_4_input {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/MUX_4_input/mux_4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_4
+# 
+# Top level modules:
+# 	mux_4
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Program_Counter {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Program_Counter/pc_reg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pc_reg
+# 
+# Top level modules:
+# 	pc_reg
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module REG_FILE
+# 
+# Top level modules:
+# 	REG_FILE
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/ALU {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/ALU/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Main_Mem
+# 
+# Top level modules:
+# 	Main_Mem
+# 
+# vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level {G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test_controller
+# 
+# Top level modules:
+# 	test_controller
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  test-controller
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps test-controller 
+# ** Error: (vsim-3170) Could not find 'G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/simulation/modelsim/rtl_work.test-controller'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./controller_run_msim_rtl_verilog.do PAUSED at line 20
+vsim work.test_controller
+# vsim work.test_controller 
+# Loading work.test_controller
+# Loading work.controller
+# Loading work.control
+# Loading work.ALU
+# Loading work.gen_reg
+# Loading work.pc_reg
+# Loading work.REG_FILE
+# Loading work.mux_4
+# Loading work.addr_decode
+# Loading work.Main_Mem
+# ** Error: (vsim-3033) G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v(88): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /test_controller/MUT/Memory
+#         Searched libraries:
+#             G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./controller_run_msim_rtl_verilog.do PAUSED at line 20
+vsim work.test_controller
+# vsim work.test_controller 
+# Loading work.test_controller
+# Loading work.controller
+# Loading work.control
+# Loading work.ALU
+# Loading work.gen_reg
+# Loading work.pc_reg
+# Loading work.REG_FILE
+# Loading work.mux_4
+# Loading work.addr_decode
+# Loading work.Main_Mem
+# ** Error: (vsim-3033) G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v(88): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /test_controller/MUT/Memory
+#         Searched libraries:
+#             G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./controller_run_msim_rtl_verilog.do PAUSED at line 20
+vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level -O0 G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test_controller
+# 
+# Top level modules:
+# 	test_controller
+vlog -vlog01compat -work work +incdir+G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level -O0 G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test_controller
+# 
+# Top level modules:
+# 	test_controller
+vsim work.test_controller
+# vsim work.test_controller 
+# Loading work.test_controller
+# Loading work.controller
+# Loading work.control
+# Loading work.ALU
+# Loading work.gen_reg
+# Loading work.pc_reg
+# Loading work.REG_FILE
+# Loading work.mux_4
+# Loading work.addr_decode
+# Loading work.Main_Mem
+# ** Error: (vsim-3033) G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v(88): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /test_controller/MUT/Memory
+#         Searched libraries:
+#             G:/class/ECE444_FA13/Lecture_Examples/Lecture_11/Controller_Top_Level/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./controller_run_msim_rtl_verilog.do PAUSED at line 20

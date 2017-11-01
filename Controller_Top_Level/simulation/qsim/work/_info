@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dG:\class\ECE444_FA13\Lecture_Examples\Lecture_11\Controller_Top_Level\simulation\qsim
+vcontroller
+Z1 InbO0`moBI1o[P8DObTena0
+Z2 VHzll4FBAK=oEFlK3QIR_33
+Z3 dG:\class\ECE444_FA13\Lecture_Examples\Lecture_11_revised_10_17_2013\Controller_Top_Level\simulation\qsim
+Z4 w1382059832
+Z5 8controller.vo
+Z6 Fcontroller.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|controller.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 ]YMhE^LdKU_fdS`7aYMWe0
+!s85 0
+Z11 !s108 1382059833.596000
+Z12 !s107 controller.vo|
+!s101 -O0
+vcontroller_vlg_check_tst
+!i10b 1
+Z13 !s100 jlObiX7C3lQ<;QizzaNaQ2
+Z14 IMh393^2H>L<cooS4Ug6LE0
+Z15 VbkzcSiB>=X]40[0De@IGl1
+R3
+Z16 w1382059830
+Z17 8controller.vt
+Z18 Fcontroller.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z19 !s108 1382059833.839000
+Z20 !s107 controller.vt|
+Z21 !s90 -work|work|controller.vt|
+!s101 -O0
+R9
+vcontroller_vlg_sample_tst
+!i10b 1
+Z22 !s100 l`4l9WGn0JiJQhbLG?8fF3
+Z23 IjUiiHVPMUYXzIj9Pz3dZj3
+Z24 VEo3@JG7lm5JN[Y[knk>?X1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vcontroller_vlg_vec_tst
+!i10b 1
+Z25 !s100 QE__QC<_Ng<S2dL28f^@o3
+Z26 Ia`1:jfNbMHVSHOXA6ZoA]2
+Z27 VBSiG7>@g74A<1_=TC6R340
+R3
+R16
+R17
+R18
+Z28 L0 1081
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

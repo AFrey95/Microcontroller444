@@ -1,0 +1,43 @@
+#  
+# Compile of controller.v was successful.
+# Compile of Main_Mem.v was successful.
+# Compile of test_controller.v was successful.
+# Compile of addr_decode.v was successful.
+# Compile of ALU.v was successful.
+# Compile of gen_reg.v was successful.
+# Compile of REG_FILE.v was successful.
+# Compile of mux_4.v was successful.
+# Compile of control.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of altsyncram.v was successful.
+# 11 compiles, 0 failed with no errors. 
+vsim work.test_controller
+# vsim work.test_controller 
+# Loading work.test_controller
+# Loading work.controller
+# Loading work.control
+# Loading work.ALU
+# Loading work.gen_reg
+# Loading work.pc_reg
+# Loading work.REG_FILE
+# Loading work.mux_4
+# Loading work.addr_decode
+# Loading work.Main_Mem
+# Loading work.altsyncram
+# ** Warning: (vsim-PLI-3003) C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v(19): [TOFD] - System task or function '$readmem' is not defined.
+#         Region: /test_controller
+# ** Error: (vsim-3043) C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v(19): Unresolved reference to 'Memory'.
+#         Region: /test_controller
+# ** Error: (vsim-3043) C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v(19): Unresolved reference to 'controller'.
+#         Region: /test_controller
+# ** Warning: (vsim-3015) C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v(11): [PCDPC] - Port size (6 or 6) does not match connection size (7) for port 'state'. The port definition is at: C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v(5).
+#         Region: /test_controller/MUT
+# ** Warning: (vsim-3015) C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v(25): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'DECODER_sel'. The port definition is at: C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Control_Unit/control.v(5).
+#         Region: /test_controller/MUT/control_unit
+# ** Warning: (vsim-3015) C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v(31): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'sel'. The port definition is at: C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/MUX_4_input/mux_4.v(4).
+#         Region: /test_controller/MUT/file_mux
+# ** Warning: (vsim-3015) C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'rdaddress'. The port definition is at: C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v(42).
+#         Region: /test_controller/MUT/Memory
+# ** Warning: (vsim-3015) C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'wraddress'. The port definition is at: C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v(43).
+#         Region: /test_controller/MUT/Memory
+# Error loading design

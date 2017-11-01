@@ -1,0 +1,78 @@
+C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Program_Counter/pc_reg.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Program_Counter/pc_reg.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module pc_reg
+
+Top level modules:
+	pc_reg
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/Main_Mem.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module Main_Mem
+
+Top level modules:
+	Main_Mem
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/ALU.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/ALU/ALU.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/test_controller.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module test_controller
+
+Top level modules:
+	test_controller
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Address_Decoder/addr_decode.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Address_Decoder/addr_decode.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module addr_decode
+
+Top level modules:
+	addr_decode
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/General_Register/gen_reg.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/General_Register/gen_reg.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module gen_reg
+
+Top level modules:
+	gen_reg
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Register_File/REG_FILE.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module REG_FILE
+
+Top level modules:
+	REG_FILE
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/MUX_4_input/mux_4.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/MUX_4_input/mux_4.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mux_4
+
+Top level modules:
+	mux_4
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Control_Unit/control.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Control_Unit/control.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/qdesigns/Lecture_Examples/Lecture_11/Controller_Top_Level/controller.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/altera/12.0/quartus/eda/fv_lib/verilog/altsyncram.v {1 {vlog -work work -nocovercells C:/altera/12.0/quartus/eda/fv_lib/verilog/altsyncram.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module altsyncram
+
+Top level modules:
+	altsyncram
+
+} {} {}}
